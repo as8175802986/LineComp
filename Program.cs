@@ -10,8 +10,7 @@ namespace Line_Comp
     {
         static void Main(string[] args)
         {
-             //Console.WriteLine("Welcome to line comparision computation program");
-            //varibles declaration
+
             double x1, x2, y1, y2;    //taking user inputs of cartessian coordinates of line 1
             double len, length;
             double point1, point2;
@@ -70,6 +69,7 @@ namespace Line_Comp
             {
                 Console.WriteLine("The lines aren't equal");
             }
+
         }
     }
 }
