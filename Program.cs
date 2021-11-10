@@ -10,8 +10,7 @@ namespace Line_Comp
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Welcome to line comparision computation program");
-            //varibles declaration
+
             double x1, x2, y1, y2;    //taking user inputs of cartessian coordinates of line 1
             double len, length;
             double point1, point2;
@@ -62,18 +61,15 @@ namespace Line_Comp
             Console.WriteLine("The length of line 2 is: " + length1);
             Console.WriteLine();
 
-            if (length == length1)                    // if statement for comparision bwtween the two lines
+            if (length==length1)                    // if statement for comparision
             {
                 Console.WriteLine("Both the lines are equal");
             }
-            else if (length > length1)
-            {
-                Console.WriteLine("Line 1 is greater than line 2");
-            }
             else
             {
-                Console.WriteLine("Line 2 is greater than line 1 ");
+                Console.WriteLine("The lines aren't equal");
             }
+
         }
     }
 }
